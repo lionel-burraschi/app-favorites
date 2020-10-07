@@ -1,0 +1,110 @@
+
+body {
+    background-image:url(app-favorites-background-img.png);
+}
+
+h1 {
+    text-align: center;
+    font-size:4.3em;
+    color: rgb(0, 0, 0);
+    font-family: Tahoma;
+    border-radius: 5px;
+    border: solid 2px gold;
+    text-shadow: 90px 90px 10px gray;
+    box-shadow: 10px 10px 10px black;
+    padding: 1%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    opacity: 0.7;
+    background: linear-gradient(to left, #fff494, rgb(255, 255, 255));
+}
+
+#container {
+    display: flex;
+
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bloc1-menu {
+    border: solid 2px gold;
+    border-radius: 5px;
+    font-size: 1.1em;
+    background-color: rgb(255, 245, 125);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.bloc1-menu p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Nunito S,sans-serif;
+}
+
+.bloc1-menu a {
+    text-decoration: none;
+    font-family: Nunito S,sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.bloc1-menu li {
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -50%;
+    border: solid 1px gold;
+}
+
+.bloc1-menu a:hover li {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.bloc2 {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size:0.8em;
+}
+
+.bloc3 {
+    text-align: center;
+    background-color:  rgb(240, 255, 255);
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.bloc3 img {
+    width: 15vw;
+}
+
+.bloc3 img:hover {
+    width: 17vw;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
